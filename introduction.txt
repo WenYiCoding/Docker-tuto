@@ -1,0 +1,28 @@
+Create a js file
+
+Run the file using NodeJs
+ - like Java file need JRE to execute
+
+By theory, other environment also need to install NodeJs
+ - because of this, "this only works on my machine" condition exist
+
+If we got new environment, we need
+ - install Operating System
+ - install running environment (NodeJs)
+ - install all compiled/source files
+ - install all program dependencies if needed
+ - install program config files
+ - then can execute the program
+
+Docker can prevent "only works on my machine" and automate all installation in new environement
+ - also force disipline on tracking the environment configuration
+
+Install Docker Desktop (https://docs.docker.com/desktop/)
+ - require wsl if on windows
+ -- > wsl --install
+ - require virtualization enabled in boot setting
+ - if have issue, set UMA buffer size to Auto
+
+Create "Dockerfile"
+ - no file extension (like .js)
+ - always capitalize follow the capitalization
